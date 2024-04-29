@@ -1,6 +1,6 @@
 import torch
 from TTS.api import TTS
-from playsound import playsound  # Import playsound to play the generated audio file
+from playsound import playsound
 
 # Verifica se a GPU está disponível e define o dispositivo
 device = "cuda" if torch.cuda.is_available() else "cpu"
